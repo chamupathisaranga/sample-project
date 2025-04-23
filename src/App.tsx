@@ -1,13 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
+      <h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        doloremque sit alias mollitia pariatur cupiditate quam ipsa perferendis
+        rerum id quis, numquam quas, vel distinctio eius magnam delectus vitae
+        aut?
+      </h4>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -28,8 +34,14 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        doloremque sit alias mollitia pariatur cupiditate quam ipsa perferendis
+        rerum id quis, numquam quas, vel distinctio eius magnam delectus vitae
+        aut?
+      </h4>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
